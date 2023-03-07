@@ -4,9 +4,8 @@ import os
 
 def main():
     root_dir = os.path.dirname(__file__)
-
-    os.chdir(os.path.abspath(root_dir))
     pdir = Path(root_dir)
+    
     # Creates a list of files that ends in '.xlsx'
     xlsx_filelist = [filename for filename in pdir.iterdir() if filename.suffix == ".xlsx"]
     # Creates a list of files that ends in '.xls'
