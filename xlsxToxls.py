@@ -3,7 +3,6 @@ import openpyxl
 import os
 
 def main():
-
     root_dir = os.path.dirname(__file__)
 
     os.chdir(os.path.abspath(root_dir))
