@@ -8,8 +8,7 @@ Converts xlsx files to xls in the same directory as the Python Script.
   - **Pros**
       - Since it uses Excel application directly to convert, no error message on launch of newly generated .xls file
   - **Cons**
-      - It requires Excel to be installed. (Haven't tried forward capabilities. ie. using Office03 to convert the file from .xlsx to .xls)
-      - (Theorectically can't happen since Office03 can't open .xlsx file)
+      - It requires Excel to be installed. (Haven't tried forward capabilities. ie. using Office03 to convert the file from .xlsx to .xls. Theorectically can't happen since Office03 can't open .xlsx file)
 ------------------------------------------
 
 * openpyxl method uses openpyxl module to convert the .xlsx file to .xls
