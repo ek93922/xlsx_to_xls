@@ -1,11 +1,11 @@
 from pathlib import Path
-import openpyxl
+import openpyxl # pip install openpyxl
 import os
 
 def main():
     root_dir = os.path.dirname(__file__)
     pdir = Path(root_dir)
-    
+
     # Creates a list of files that ends in '.xlsx'
     xlsx_filelist = [filename for filename in pdir.iterdir() if filename.suffix == ".xlsx"]
     # Creates a list of files that ends in '.xls'
