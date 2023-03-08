@@ -15,4 +15,4 @@ Converts xlsx files to xls in the same directory as the Python Script.
   - **Pros**
       - Does not require Excel to be installed
   - **Cons**
-      - Opening the file prompts with error message and the user must select "Yes" to proceed.
+      - Opening the file prompts the user with an error message and the user must select "Yes" to proceed.
