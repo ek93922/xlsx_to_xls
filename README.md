@@ -9,7 +9,7 @@ Converts xlsx files to xls in the same directory as the Python Script.
       - Since it uses Excel application directly to convert, no error message on launch of newly generated .xls file
   - **Cons**
       - It requires Excel to be installed. 
-      - Script can run the script with Office03 **but** it'll break. 
+      - Script can run the script with Office03 **but** excel file will break. 
      
 ------------------------------------------
 
