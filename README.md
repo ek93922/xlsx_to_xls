@@ -4,6 +4,7 @@ Converts xlsx files to xls in the same directory as the Python Script.
   - Will not create duplicate xls file if there's already one in the folder from previous conversion.
 
 [SaveAs Documentation](https://learn.microsoft.com/en-us/office/vba/api/excel.workbook.saveas)
+
 [FileFormat Documentation](https://learn.microsoft.com/en-us/office/vba/api/excel.xlfileformat)
 
 ------------------------------------------
