@@ -1,6 +1,5 @@
-import win32com.client as win32
+import win32com.client as win32 # pip install pywin32
 import os
-from pathlib import Path
 
 def main():
     # Set root directory
