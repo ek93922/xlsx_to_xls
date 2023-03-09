@@ -12,7 +12,7 @@ Converts xlsx files to xls in the same directory as the Python Script.
   - **Pros**
       - Since it uses Excel application directly to convert, no error message on launch of newly generated .xls file
   - **Cons**
-      - It requires Excel to be installed. 
+      - It requires Excel to be installed. (Must be newer than 2003) 
       - Script can run with Office03 **but** excel file will break. (Can be done manually by the user)
      
 ------------------------------------------
